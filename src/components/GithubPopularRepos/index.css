@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.h1 {
+  font-family: Lobster;
+}
+.lisbtn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.error {
+  height: 400px;
+  width: 400px;
+}

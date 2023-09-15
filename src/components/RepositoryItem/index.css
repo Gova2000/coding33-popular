@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.li1 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background-color: #f8f8ff;
+  padding: 15px;
+}
+
+.cimg {
+  height: 100px;
+  width: 100px;
+}
+.col {
+  color: #e73959;
+  font-size: x-large;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
