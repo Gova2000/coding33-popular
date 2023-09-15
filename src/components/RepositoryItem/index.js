@@ -9,7 +9,7 @@ const CardItem = props => {
     <li className="li1">
       <img src={avatarUrl} alt={name} className="cimg" />
       <div>
-        <p className="col">{name}</p>
+        <h1 className="col">{name}</p>
 
         <div className="row">
           <img
