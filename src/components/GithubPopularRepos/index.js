@@ -50,7 +50,7 @@ class GithubPopularRepos extends Component {
       }))
       this.setState({List: format, togg1: true})
     }
-    if (get.status === 502) {
+    if (get.ok === false) {
       this.setState({toggle: cons.fail})
     }
   }
